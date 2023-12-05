@@ -55,8 +55,8 @@ class RegisterController extends Controller
             'name' => $request->get('first_name'),
             'email' => $request->get('email'),
         ]);
-        Mail::to($email)->send(new WelcomeMail($data));;
-        mail::to(env("ADMIN_EMAIL", "iksolution2021@gmail.com"))->send(new adminMail($data));;
+        //Mail::to($email)->send(new WelcomeMail($data));;
+        //mail::to(env("ADMIN_EMAIL", "iksolution2021@gmail.com"))->send(new adminMail($data));;
         $this->validator($request->all())->validate();
 
         event(new Registered($user = $this->create($request->all())));
