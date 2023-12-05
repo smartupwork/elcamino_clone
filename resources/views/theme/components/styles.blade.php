@@ -1,0 +1,3 @@
+@section('styles')
+    {{ $slot }}
+@endsection

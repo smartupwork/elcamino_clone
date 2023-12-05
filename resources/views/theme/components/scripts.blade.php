@@ -1,0 +1,3 @@
+@section('scripts')
+    {{ $slot }}
+@endsection
