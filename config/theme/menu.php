@@ -32,12 +32,12 @@ return array(
         //     'classes' => array('item' => 'me-lg-1'),
         // ),
 
-        // array(
-        //     'title'   => 'Users Management',
-        //     'path'    => 'users',
-        //     'classes' => array('item' => 'me-lg-1'),
-        //     'permission' => 'access-admin-panel',
-        // ),
+        array(
+            'title'   => 'Users Management',
+            'path'    => 'users',
+            'classes' => array('item' => 'me-lg-1'),
+            'permission' => 'access-admin-panel',
+        ),
         // array(
         //     'title'   => 'CMS',
         //     'path'    => 'cms',

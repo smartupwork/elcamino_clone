@@ -83,7 +83,7 @@
 
         <div class="text-center mb-10">
             <h1 class="text-dark mb-3">
-                {{ __('Sign In to E-Finance') }}
+                {{ __('Sign In to Navigator') }}
             </h1>
             <div class="text-gray-400 fw-bold fs-4">
                 {{ __('New Here?') }}

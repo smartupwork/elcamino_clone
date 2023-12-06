@@ -31,7 +31,7 @@
           </tr>
           <tr>
             <td style="font-size:14px; line-height:1.6; font-weight: 400; font-family: 'Open Sans', Roboto, Arial; color: #626262;">
-              <b>Elcaminofinance Team</b>
+              <b>Finance Team</b>
             </td>
           </tr>
         </table>
