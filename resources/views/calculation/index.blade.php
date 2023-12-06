@@ -63,24 +63,24 @@
                                     <div class="d-flex justify-content-end flex-shrink-0">
 
 
-                                        {{-- <button data-id="{{ $calculation->id }}" id="copy-confirm" class="btn btn-icon btn-active-color-primary btn-sm me-1 open_popup" type="button" >
+                                        <button data-id="{{ $calculation->id }}" id="copy-confirm" class="btn btn-icon btn-active-color-primary btn-sm me-1 open_popup" type="button" >
                                             <a href="{{ URL::to('copy/'.$calculation->id) }}">
                                                 {!! theme()->getSvgIcon('icons/duotune/general/gen054.svg', 'svg-icon svg-icon-3') !!}
                                             </a>
-                                        </button> --}}
+                                        </button>
 
 
                                         {{-- <button data-id="{{ $calculation->id }}" class="btn btn-icon btn-active-color-primary btn-sm me-1 open_popup" type="button" data-toggle="modal" data-target="#exampleModal">
                                             {!! theme()->getSvgIcon('icons/duotune/general/gen016.svg', 'svg-icon svg-icon-3') !!}
-                                        </button> --}}
+                                        </button> --}} 
                                         <a href="{{ route('calculations.show', $calculation) }}"
                                            class="btn btn-icon btn-active-color-primary btn-sm me-1">
                                             {!! theme()->getSvgIcon('icons/duotune/general/gen008.svg', 'svg-icon svg-icon-3') !!}
                                         </a>
                                         
-                                        {{-- <a href="{{ URL::to('update/'.$calculation->id) }}" class="btn btn-icon btn-active-color-primary btn-sm me-1">
+                                        <a href="{{ URL::to('update/'.$calculation->id) }}" class="btn btn-icon btn-active-color-primary btn-sm me-1">
                                             {!! theme()->getSvgIcon('icons/duotune/art/art005.svg', 'svg-icon svg-icon-3') !!}
-                                        </a> --}}
+                                        </a>
                                         <button data-bs-target="#confirm_calculation_{{ $calculation->id }}"
                                                 data-bs-toggle="modal"
                                                 class="btn btn-icon btn-active-color-danger btn-sm">

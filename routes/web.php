@@ -24,6 +24,10 @@ Route::group(['middleware' => 'auth'], function (){
 
     Route::get('profile/edit', 'UserController@profile')->name('profile.edit');
 
+    //snapshare
+    Route::get('/impersonate/{id}',[App\Http\Controllers\UserController::class,'imperson'])->name('/impersonate/{id}');
+    Route::get('copy/{id}',[App\Http\Controllers\CalculationController::class,'copy'])->name('copy/{id}');
+    Route::get('update/{id}',[App\Http\Controllers\CalculationController::class,'update_snapshot'])->name('update/{id}');
 
 });
 
